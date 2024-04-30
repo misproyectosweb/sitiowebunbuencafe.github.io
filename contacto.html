@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<!-- Página que le permite al usuario ponerse en contacto con la organización -->
+
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_1.png"/>
+        
+        <!-- Utilizando Bootstrap 4 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">        
+
+        <!-- Utilizando Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+        <!-- Utilizando iconos de Bootstrap y Fontawesome -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+        <!-- Utilizando estilos css personalizados -->
+        <link href="estilos/estilosGenerales.css" rel="stylesheet" type="text/css"/>
+        <link href="estilos/estilosContacto.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Utilizando animaciones para los elementos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="imgEncabezado">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center my-4">
+                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                        <h1 class="mb-0 text-white display-4 font-weight-bold">Un buen café para el alma</h1>
+                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                    </div>
+                </div>                
+                <ul class="nav nav-justified py-3 border-top border-white menu">
+                    <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'royalblue');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'royalblue');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="historia.html">Historia</a>
+                    </li>                    
+                    <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'royalblue');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'royalblue');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="recetas.html">¿Cómo preparar...?</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'royalblue');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container-fluid px-0">
+                <div class="row justify-content-center py-5">                    
+                    <div class="text-center">
+                        <h1 class="mb-0 titulo display-4">Contáctenos</h1>
+                    </div>                    
+                </div>
+                <div class="row justify-content-center pb-3">                    
+                    <div class="text-center">
+                        <h2 class="mb-0 titulo">¿Te gustó nuestro sitio web?</h2>
+                    </div>                    
+                </div>
+                <div class="row justify-content-center pb-5">                    
+                    <div class="text-center">
+                        <h3 class="mb-0 titulo">Envíanos un comentario</h3>
+                    </div>                    
+                </div>
+                                                                    
+                <!-- Formulario de contacto -->
+                <div class="container-fluid border-top border-dark-50 bg-light">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-10 col-xl-6 p-4">
+                            <form class="p-3 border border-dark-50 rounded-lg needs-validation" novalidate>
+                                <div class="col-12 px-0">                                    
+                                    <h5 class="mb-0 pb-4"><strong>Ingrese sus datos para contacto:</strong></h5>
+                                </div> 
+                                <div class="form-row pb-2">                                                                        
+                                    <div class="form-group col-10">
+                                        <label for="nombre">Nombre completo:</label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" value="" required>
+                                        <div class="valid-feedback is-valid">¡OK, válido!</div>
+                                        <div class="invalid-feedback is-invalid">Completa el campo</div>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="form-row pb-2">                                    
+                                    <div class="form-group col-10">
+                                        <label for="correo">Correo electrónico:</label>
+                                        <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
+                                        <div class="valid-feedback is-valid">¡OK, válido!</div>
+                                        <div class="invalid-feedback is-invalid">Completa el campo</div>
+                                    </div>
+                                </div>
+                                                                                                                                
+                                <div class="form-row pb-2">
+                                    <div class="form-group col-10">
+                                        <label for="direccion">Dirección:</label>
+                                        <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección o domicilio" value="" required>
+                                        <div class="valid-feedback is-valid">¡OK, válido!</div>
+                                        <div class="invalid-feedback is-invalid">Completa el campo</div>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="form-row pb-2">                                    
+                                    <div class="form-group col-10">
+                                        <label for="telcasa">Teléfono casa:</label>
+                                        <input type="tel" class="form-control" id="telcasa" name="telcasa" placeholder="2222-3333" value="" required>
+                                        <div class="valid-feedback is-valid">¡OK, válido!</div>
+                                        <div class="invalid-feedback is-invalid">Completa el campo</div>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="form-row pb-2">                                                                        
+                                    <div class="form-group col-10">
+                                        <label for="telcelular">Teléfono celular:</label>
+                                        <input type="tel" class="form-control" id="telcelular" name="telcelular" placeholder="8888-5555" value="" required>
+                                        <div class="valid-feedback is-valid">¡OK, válido!</div>
+                                        <div class="invalid-feedback is-invalid">Completa el campo</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-row pb-2">
+                                    <div class="form-group col-10">
+                                        <label for="comentario">Por favor déjanos tu comentario:</label>                                        
+                                        <textarea class="form-control" cols="30" rows="5" id="comentario" name="comentario" required></textarea>
+                                        <div class="valid-feedback is-valid">¡OK, válido!</div>
+                                        <div class="invalid-feedback is-invalid">No olvides dejar tu mensaje</div>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" id="boton" class="btn btn-primary mb-3">Enviar mensaje</button>
+                                
+                            </form>
+                        </div>
+                                                
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-10 col-xl-6 p-4">
+                            <div class="imgFondoContacto">
+                                <div class="colorFondo">
+                                    <div class="col-7 px-0 mx-auto">
+                                        <div class="row vh-100">
+                                            <blockquote class="mb-0 blockquote text-center text-white citaContacto py-5">
+                                                <p class="mb-0 text-white">" A quien madruga, un buen café le ayuda "</p>
+                                                <footer class="blockquote-footer text-white text-right">Anónimo</footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>                
+            </div>            
+        </main>
+        
+        <footer>                                               
+            <div class="container-fluid text-white" id="contacto" style="background-color:#003958;">
+                <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
+                <div class="row justify-content-around my-4">
+                    
+                    <!-- Enlaces a las páginas -->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                        <div class="list-group list-group-flush">
+                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a>
+                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a>
+                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-3"></i>Galería</a>
+                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a>
+                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a>                            
+                        </div>
+                    </div>
+                    
+                    <!-- Redes sociales -->
+                    <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">                        
+                        <div class="list-group list-group-flush">
+                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-3"></i>Un buen café para el alma</a>
+                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a>                            
+                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-3"></i>Un buen café para el alma</a>
+                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-3"></i>Un buen café para el alma</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Localización -->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                        <ul class="list-group list-group-flush">
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</li>                             
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                        <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
+                    </div>   
+                </div>                                                                                
+            </div>
+        </footer>
+        
+        <!-- Archivos JavaScript utilizados por Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+        
+        <!-- Funciones creadas en JavaScript -->
+        <script>            
+            function ResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+
+            function noResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+        </script>
+        
+        <script>
+            
+            // Función que permite la deshabilitación del envío de datos en formularios si hay campos inválidos
+            (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+
+                    // Obtener todos los formularios a los que queremos aplicar estilos de validación personalizados
+                    var forms = document.getElementsByClassName('needs-validation');
+
+                    // Recorre los formularios y evita que el form se envíe de forma inmediata
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                        form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();                 
+        </script>
+                                        
+        <!-- Enlace y método JavaScript para utilizar las animaciones -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+        
+        <script> 
+            AOS.init();
+        </script>  
+    </body>
+</html>

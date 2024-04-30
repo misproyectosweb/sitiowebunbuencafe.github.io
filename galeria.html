@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<!-- Página que muestra fotografías acerca de cómo era el trabajo y transporte del café a través del tiempo -->
+
+<html lang="es">
+    <head>
+        <title>Galería</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_1.png"/>
+        
+        <!-- Utilizando Bootstrap 4 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">        
+
+        <!-- Utilizando Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+        <!-- Utilizando iconos de Bootstrap y Fontawesome -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+        <!-- Utilizando estilos css personalizados -->
+        <link href="estilos/estilosGenerales.css" rel="stylesheet" type="text/css"/>
+        <link href="estilos/estilosGaleria.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Utilizando animaciones para los elementos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="imgEncabezado">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center my-4">
+                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                        <h1 class="mb-0 text-white display-4 font-weight-bold">Un buen café para el alma</h1>
+                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                    </div>
+                </div>                
+                <ul class="nav nav-justified py-3 border-top border-white menu">
+                    <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'royalblue');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'royalblue');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="historia.html">Historia</a>
+                    </li>                    
+                    <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'royalblue');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'royalblue');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="recetas.html">¿Cómo preparar...?</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'royalblue');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container-fluid px-0">
+                <div class="row justify-content-center py-5">                    
+                    <div class="text-center titulo">
+<!--                        <img src="imagenes/lineaDecorativa_1.png" class="img-fluid mx-auto d-block" alt="" />-->
+                        <h1 class="mb-0 text-center display-4 my-3">La historia del café en imágenes</h1>
+                    </div>                    
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center border-bottom border-dark-50 mb-4 px-3">
+                        <p class="textoSeccion mb-4 text-center">La historia del café se pierde en la noche de los tiempos; pero en el torbellino de la vida moderna, el granito pardo sigue animando una industria muy importante. Para nosotros los occidentales el café es de trescientos años, pero en el Oriente ya se había extendido como una bebida, en todos los niveles de la sociedad, desde tiempos atrás.</p>
+                    </div>
+                </div>
+                
+                <!-- Fila uno -->                              
+                <div class="row p-4 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_01.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Recolectores de café</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1950 - publicada el 23 de febrero de 2013</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/photo/?fbid=564275500257371&set=a.564241610260760&locale=es_LA" target="_blank">Costa Rica y su historia</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_02.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Beneficio de Café, Pejibaye, Jiménez, Cartago</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> aproximadamente 1950</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://micostaricadeantano.com/2021/02/26/beneficio-de-cafe-pejibaye-jimenez-cartago-1901-1950" target="_blank">Mi Costa Rica de antaño</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_03.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Cafetalera Miramontes, Heredia</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> aproximadamente 2010</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://micostaricadeantano.com/2019/09/18/edificaciones-finca-cafetalera-miramontes-heredia-1851-1900/" target="_blank">Mi Costa Rica de antaño</a></p>
+                        </div>
+                    </div>
+                </div>
+           
+                <!-- Fila dos -->                
+                <div class="row p-4 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_04.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Casona Finca La Caja, Uruca, San José.</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1912</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://micostaricadeantano.com/2020/12/29/casona-finca-la-caja-uruca-san-jose-1851-1900" target="_blank">Mi Costa Rica de antaño</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_05.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Cafetería y refresquería en San José</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1917</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://alimentacionycultura.ucr.ac.cr/index.php/2023/02/15/las-pulperias-y-el-consumo-de-cafe-en-costa-rica" target="_blank">UCR - Escuela de nutrición</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_06.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Asoleando café, San José</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1940 - publicada el 26 de febrero de 2013</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/photo/?fbid=566044946747093&set=a.564241610260760&locale=es_LA" target="_blank">Costa Rica y su historia</a></p>
+                        </div>
+                    </div>
+                </div>
+                                                                                                                                                                
+                <!-- Fila tres -->
+                <div class="row p-4 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_07.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Descargando café</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1910 - publicada el 26 de febrero de 2013</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/Costaricaysuhistoria/photos/a.564241610260760/566044776747110/?type=3&locale=es_LA" target="_blank">Costa Rica y su historia</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_08.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> 200 años de exportar café ¿Por qué es tan importante?</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> desconocido</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.soybarista.com/200-anos-de-exportar-cafe-por-que-es-tan-importante" target="_blank">Soy Barista</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_09.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Finca de café, San José</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1910</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html" target="_blank">Ministerio de Agricultura y Ganadería</a></p>
+                        </div>
+                    </div>
+                </div>
+                                               
+                <!-- Fila cuatro -->
+                <div class="row p-4 mb-5 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_10.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Beneficio de café, Heredia</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> entre 1911 y 1914</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html" target="_blank">Ministerio de Agricultura y Ganadería</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_11.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Acarreo de café para exportación. La Garita, Alajuela</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> entre 1911 y 1914</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.mag.go.cr/acerca_del_mag/historia/historia%20grafica-MAG-100anos-ago-2015.html" target="_blank">Ministerio de Agricultura y Ganadería</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="datosFotos mb-3">
+                            <img src="imagenes/fotoHistoriaCafe_12.jpg" class="img-fluid img-thumbnail rounded-lg p-2 bg-info mx-auto d-block" alt="foto historia del café">
+                            <p class="mb-0 mt-2"><i class="bi bi-dot mr-2"></i><strong>Titulo:</strong> Beneficio de café, finca La Verbena, San Felipe, Alajuelita</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Año:</strong> 1920 - publicada el 26 de setiembre de 2021</p>
+                            <p class="mb-0"><i class="bi bi-dot mr-2"></i><strong>Referencia: </strong><a href="https://www.facebook.com/photo/?fbid=5027377483944727&set=gm.5131249376902079" target="_blank">Fotografias antiguas de Costa Rica</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>                                               
+            <div class="container-fluid text-white" id="contacto" style="background-color:#003958;">
+                <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
+                <div class="row justify-content-around my-4">
+                    
+                    <!-- Enlaces a las páginas -->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                        <div class="list-group list-group-flush">
+                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a>
+                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a>
+                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-3"></i>Galería</a>
+                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a>
+                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a>                            
+                        </div>
+                    </div>
+                    
+                    <!-- Redes sociales -->
+                    <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">                        
+                        <div class="list-group list-group-flush">
+                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-3"></i>Un buen café para el alma</a>
+                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a>                            
+                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-3"></i>Un buen café para el alma</a>
+                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-3"></i>Un buen café para el alma</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Localización -->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                        <ul class="list-group list-group-flush">
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</li>                             
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                        <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
+                    </div>   
+                </div>                                                                                
+            </div>
+        </footer>
+        
+        <!-- JavaScript -->
+        <script>            
+            function ResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+
+            function noResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+        </script>
+        
+        <!-- Archivos JavaScript utilizados por Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+        <!-- Enlace y método JavaScript para utilizar las animaciones -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+        
+        <script> 
+            AOS.init();
+        </script>   
+    </body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<!-- Página que muestra formas de aprovechar el café en distintas preparaciones -->
+
+<html lang="es">
+    <head>
+        <title>¿Cómo preparar...?</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/dbjBebida_1.png"/>
+        
+        <!-- Utilizando Bootstrap 4 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">        
+
+        <!-- Utilizando Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+        <!-- Utilizando iconos de Bootstrap y Fontawesome -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+        <!-- Utilizando estilos css personalizados -->
+        <link href="estilos/estilosGenerales.css" rel="stylesheet" type="text/css"/>
+        <link href="estilos/estilosRecetas.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Utilizando animaciones para los elementos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="imgEncabezado">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center my-4">
+                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                        <h1 class="mb-0 text-white display-4 font-weight-bold">Un buen café para el alma</h1>
+                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                    </div>
+                </div>                
+                <ul class="nav nav-justified py-3 border-top border-white menu">
+                    <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'royalblue');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'royalblue');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="historia.html">Historia</a>
+                    </li>                    
+                    <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'royalblue');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'royalblue');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="recetas.html">¿Cómo preparar...?</a>
+                    </li>
+                    <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'royalblue');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
+                        <a class="nav-link text-white font-weight-bold" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container-fluid px-0">
+                <div class="row justify-content-center py-5">                    
+                    <div class="text-center titulo">
+                        <!--                        <img src="imagenes/lineaDecorativa_1.png" class="img-fluid mx-auto d-block" alt="" />-->
+                        <h1 class="mb-0 text-center display-4 my-3">¿Cómo preparar...?</h1>
+                    </div>                    
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center border-bottom border-dark-50 mb-4 px-3">
+                        <p class="textoSeccion mb-4 text-center">Tus bebidas con café favoritas no solo están en los mejores restaurantes y cafeterías, puedes prepararlas justo en tu cocina. Tomar café es un ritual obligado para la mayoría de los adultos, es reconfortante, te llena de energía y antioxidantes, y te deja un buen sabor de boca para empezar el día con toda la actitud. Es una tradición y uno de los grandes placeres de la vida que podemos satisfacer a toda hora y en todo lugar. Los verdaderos amantes del café saben que el secreto está en los granos y en el tostado, en elegir una base con la mejor calidad, aroma, cuerpo y sabor, que es la clave para crear todo tipo de combinaciones y versiones, desde lo sencillo, hasta lo dulce y vibrante.</p>
+                    </div>
+                </div>
+
+                <!-- Fila uno -->
+                <div class="row m-3">
+                    <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="imagenes/imgCafeIrlandes.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café irlandés">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><strong>Café irlandés (Irish Coffee)</strong></h5>
+                                    <p class="card-text mb-0">Es una bebida clásica y querida que ha ganado popularidad en todo el mundo. Su rica e indulgente combinación de café, whisky, azúcar y crema lo convierte en la opción perfecta para quienes buscan calentarse en un día frío o disfrutar de esta deliciosa bebida. Además, detrás de esta bebida, hay varios datos interesantes...</p>
+                                    <a href="https://www.cafesmamasame.com/es/blog/9-datos-enigmaticos-sobre-el-cafe-irlandes" target="_blank" class="btn btn-info btn-sm my-4" role="button" aria-pressed="true">Ver más<i class="bi bi-chevron-double-right ml-3"></i></a>
+                                    <p class="card-text mb-0"><a href="archivos/cafe_irlandes.pdf" class="text-decoration-none text-dark" target="_blank"><i class="iconoPDF bi bi-file-pdf text-danger font-weight-bold mr-2"></i>¿Cómo preparar café irlandés?</a></p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="imagenes/imgCafeMocaMenta.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café mocha con menta">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><strong>Café moka con menta</strong></h5>
+                                    <p class="card-text mb-0">Un café moca es una variante del café con leche. Toma su nombre de la ciudad costera del mar Rojo de Moca (Yemen), que ya en el siglo xv era una importante exportadora de café procedente en gran medida de Abisinia (región de Kaffa), especialmente a regiones de la península arábiga. Se llama también moca a un tipo de grano de café...</p>
+                                    <a href="https://es.wikipedia.org/wiki/Caf%C3%A9_moca" target="_blank" class="btn btn-info btn-sm my-4" role="button" aria-pressed="true">Ver más<i class="bi bi-chevron-double-right ml-3"></i></a>
+                                    <p class="card-text mb-0"><a href="archivos/cafe_moka_menta.pdf" class="text-decoration-none text-dark" target="_blank"><i class="iconoPDF bi bi-file-pdf text-danger font-weight-bold mr-2"></i>¿Cómo preparar café mocha con menta?</a></p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fila dos -->
+                <div class="row m-3">
+                    <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="imagenes/imgCafeHawaiano.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café hawaiano">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><strong>Café hawaiano</strong></h5>
+                                    <p class="card-text mb-0">No te encuentras con un solo origen producido en los Estados Unidos en un café muy a menudo. Si bien Estados Unidos no es uno de los principales productores de café del mundo, y no se cultiva mucho café en Nueva York o Florida, hay algunos cafés excelentes cultivados en Hawai. De hecho, Hawái es el único estado de EE. UU. que cultiva granos de café...</p>
+                                    <a href="https://baristatis.com/cafe-hawaiano" target="_blank" class="btn btn-info btn-sm my-4" role="button" aria-pressed="true">Ver más<i class="bi bi-chevron-double-right ml-3"></i></a>
+                                    <p class="card-text mb-0"><a href="archivos/cafe_hawaiano.pdf" class="text-decoration-none text-dark" target="_blank"><i class="iconoPDF bi bi-file-pdf text-danger font-weight-bold mr-2"></i>¿Cómo preparar café hawaiano?</a></p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="imagenes/imgPumpkinSpiceLatte.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café con leche, calabaza y especias">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><strong>Pumpkin spice latte</strong></h5>
+                                    <p class="card-text mb-0">En muchos países del hemisferio norte, el otoño significa un clima frío, cielos grises y hojas marrones. Para los baristas y tiendas de café significa que los clientes dejan de consumir bebidas de verano como el cold brew y el café helado, para consumir bebidas de temporada como el pumpkin spice latte. Aunque el pumpkin spice latte...</p>
+                                    <a href="https://perfectdailygrind.com/es/2020/11/02/que-es-el-pumpkin-spice-latte/" target="_blank" class="btn btn-info btn-sm my-4" role="button" aria-pressed="true">Ver más<i class="bi bi-chevron-double-right ml-3"></i></a>
+                                    <p class="card-text mb-0"><a href="archivos/latte_pumpkin_spice.pdf" class="text-decoration-none text-dark" target="_blank"><i class="iconoPDF bi bi-file-pdf text-danger font-weight-bold mr-2"></i>¿Cómo preparar el pumpkin spice latte?</a></p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fila tres -->
+                <div class="row m-3">
+                    <div class="card mb-3 mx-auto bg-light" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="imagenes/imgCafeFrappeOreo.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café frappé Oreo">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><strong>Café frappé Oreo</strong></h5>
+                                    <p class="card-text mb-0">El café frappé o café frapé (del griego φραπέ, frapé) es un café con hielo cubierto de espuma elaborado a partir de café instantáneo. Es muy popular en Grecia y Chipre, especialmente durante el verano, si bien se ha extendido a otros países. Forma la base del iced cappucino (‘capuchino helado’) estadounidense y el frappuccino europeo...</p>
+                                    <a href="https://es.wikipedia.org/wiki/Caf%C3%A9_frapp%C3%A9" target="_blank" class="btn btn-info btn-sm my-4" role="button" aria-pressed="true">Ver más<i class="bi bi-chevron-double-right ml-3"></i></a>
+                                    <p class="card-text mb-0"><a href="archivos/cafe_frappe_oreo.pdf" class="text-decoration-none text-dark" target="_blank"><i class="iconoPDF bi bi-file-pdf text-danger font-weight-bold mr-2"></i>¿Cómo preparar café frappé Oreo?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-auto bg-light" style="max-width: 900px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="imagenes/imgCafeChaiHelado.jpg" class="img-fluid img-thumbnail p-2 bg-info" alt="imagen café con te chai helado">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><strong>Café chai helado</strong></h5>
+                                    <p class="card-text mb-0">El café es una de las bebidas más populares del mundo, por eso no es de extrañarse que existan distintas combinaciones y maneras de prepararlo. Entre las alternativas más refrescantes y deliciosas para disfrutar las bondades del café, sobre todo durante el verano, destaca el café chai helado. Una bebida un tanto dulce y especiada que combina el intenso sabor...</p>
+                                    <a href="https://okdiario.com/recetas/receta-casera-cafe-chai-helado-9385821" target="_blank" class="btn btn-info btn-sm my-4" role="button" aria-pressed="true">Ver más<i class="bi bi-chevron-double-right ml-3"></i></a>                                    
+                                    <p class="card-text mb-0"><a href="archivos/cafe_chai_helado.pdf" class="text-decoration-none text-dark" target="_blank"><i class="iconoPDF bi bi-file-pdf text-danger font-weight-bold mr-2"></i>¿Cómo preparar el café Chai helado?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>    
+        </main>
+        
+        <footer>                                               
+            <div class="container-fluid text-white" id="contacto" style="background-color:#003958;">
+                <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
+                <div class="row justify-content-around my-4">
+                    
+                    <!-- Enlaces a las páginas -->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                        <div class="list-group list-group-flush">
+                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a>
+                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a>
+                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-3"></i>Galería</a>
+                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a>
+                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a>                            
+                        </div>
+                    </div>
+                    
+                    <!-- Redes sociales -->
+                    <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">                        
+                        <div class="list-group list-group-flush">
+                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-3"></i>Un buen café para el alma</a>
+                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a>                            
+                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-3"></i>Un buen café para el alma</a>
+                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-3"></i>Un buen café para el alma</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Localización -->
+                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                        <ul class="list-group list-group-flush">
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</li>                             
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                        <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
+                    </div>   
+                </div>                                                                                
+            </div>
+        </footer>
+        
+        <!-- JavaScript -->
+        <script>            
+            function ResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+
+            function noResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+        </script>
+        
+        <!-- Archivos JavaScript utilizados por Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+        <!-- Enlace y método JavaScript para utilizar las animaciones -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+        
+        <script> 
+            AOS.init();
+        </script>   
+    </body>
+</html>

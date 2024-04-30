@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 12/04/2024, 05:51:25 PM
+    Author     : pcgc7
+*/
+
+
+.card { max-width: 48.5% !important; }
+.card-body { padding: 1em !important; }
+.card-title { margin-bottom: 1em !important; }
+.card-text { font-size: 1em !important; }
+.iconoPDF { font-size: 1.5em; }
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+    .card { max-width: 48.5% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { margin-bottom: 1em !important; }
+    .card-text { font-size: 0.85em !important; }    
+    .iconoPDF { font-size: 1.5em; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    .card { max-width: 60% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { margin-bottom: 1em !important; }
+    .card-text { font-size: 0.85em !important; }    
+    .iconoPDF { font-size: 1.5em; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .card { max-width: 70% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { margin-bottom: 1em !important; }
+    .card-text { font-size: 0.85em !important; }    
+    .iconoPDF { font-size: 1.5em; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    .card { max-width: 90% !important; }
+    .card-title { margin-bottom: 1em !important; }
+    .card-text { font-size: 0.85em !important; }
+    .iconoPDF { font-size: 1.5em; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    .card { max-width: 90% !important; }
+    .card-title { margin-bottom: 1em !important; }
+    .card-text { font-size: 0.85em !important; }
+    .iconoPDF { font-size: 1.5em; }
+}
+
+@media screen and (max-width: 575.98px) {    
+            
+    .card { max-width: 95% !important; }    
+    .card-title { margin-bottom: 1em !important; }
+    .card-text { font-size: 0.85em !important; }
+    .iconoPDF { font-size: 1.5em; }
+}

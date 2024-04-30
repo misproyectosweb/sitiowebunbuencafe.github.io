@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 12/04/2024, 11:55:03 AM
+    Author     : pcgc7
+*/
+
+
+/* ********** Estilos página de inicio ********** */
+.imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; min-height: 100vh; }
+.colorFondo { background: rgba(0,0,0,0.3); }
+h2 { font-size: 2em; }
+.citaInicio { font-family: 'Satisfy', cursive; font-size: 3em; }
+.blockquote-footer { font-family: 'Satisfy', cursive; font-size: 2em; }
+h5 { font-size: 1.25em; }
+p { font-size: 1em; }
+.pt-5 { padding-top: 2.5em !important; }
+.mr-5 { margin-right: 2.5em !important; }
+.mb-5 { margin-bottom: 2.5em !important; }
+.px-5 { padding-left: 2.5em !important; padding-right: 2.5em !important; }
+
+/* ********** Media queries ********** */
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+    h2 { font-size: 1.75em; }
+    .citaInicio { font-size: 2.75em; }
+    .blockquote-footer { font-size: 1.75em; }
+    h5 { font-size: 1.25em; }
+    p { font-size: 1em; }
+    .pt-5 { padding-top: 2.25em !important; }
+    .mr-5 { margin-right: 2.25em !important; }
+    .mb-5 { margin-bottom: 2.25em !important; }
+    .px-5 { padding-left: 2.25em !important; padding-right: 2.25em !important; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    h2 { font-size: 1.5em; }
+    .citaInicio { font-size: 2.5em; }
+    .blockquote-footer { font-size: 1.5em; }
+    h5 { font-size: 1.25em; }
+    p { font-size: 1em; }
+    .pt-5 { padding-top: 2em !important; }
+    .mr-5 { margin-right: 2em !important; }
+    .mb-5 { margin-bottom: 2em !important; }
+    .px-5 { padding-left: 2em !important; padding-right: 2em !important; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    h2 { font-size: 1.5em; }
+    .citaInicio { font-size: 2.25em; }
+    .blockquote-footer { font-size: 1.5em; }
+    h5 { font-size: 1.25em; }
+    p { font-size: 1em; }
+    .pt-5 { padding-top: 1.75em !important; }
+    .mr-5 { margin-right: 1.75em !important; }
+    .mb-5 { margin-bottom: 1.75em !important; }
+    .px-5 { padding-left: 1.75em !important; padding-right: 1.75em !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    h2 { font-size: 1.25em; }
+    .citaInicio { font-size: 2em; }
+    .blockquote-footer { font-size: 1.25em; }
+    h5 { font-size: 1em; }
+    p { font-size: 0.85em; }
+    .pt-5 { padding-top: 1.5em !important; }
+    .mr-5 { margin-right: 1.5em !important; }
+    .mb-5 { margin-bottom: 1.5em !important; }
+    .px-5 { padding-left: 1.5em !important; padding-right: 1.5em !important; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    h2 { font-size: 1.25em; }
+    .citaInicio { font-size: 1.75em; }
+    .blockquote-footer { font-size: 1em; }
+    h5 { font-size: 1em; }
+    p { font-size: 0.85em; }
+    .pt-5 { padding-top: 1.25em !important; }
+    .mr-5 { margin-right: 1.25em !important; }
+    .mb-5 { margin-bottom: 1.25em !important; }
+    .px-5 { padding-left: 1.25em !important; padding-right: 1.25em !important; }
+}
+
+@media screen and (max-width: 575.98px) {
+    
+    h2 { font-size: 1em; }
+    .citaInicio { font-size: 1.75em; }
+    .blockquote-footer { font-size: 1em; }
+    h5 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    .pt-5 { padding-top: 1em !important; }
+    .mr-5 { margin-right: 1em !important; }
+    .mb-5 { margin-bottom: 1em !important; }
+    .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
+}

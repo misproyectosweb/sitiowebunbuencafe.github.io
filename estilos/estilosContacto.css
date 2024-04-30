@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/04/2024, 08:52:56 AM
+    Author     : pcgc7
+*/
+
+
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h5 { font-size: 1.25em; }
+.pb-5 { padding-bottom: 2.75em !important; }
+.p-4 { padding: 1.5em !important; }
+main label { font-size: 1em; }
+.form-control { font-size: 0.9em !important; }
+main .btn { font-size: 1em !important; }
+.vh-100 { height: 65vh !important; }
+.imgFondoContacto { background-image: url('../imagenes/imgCafe_3.jpg'); background-size: cover; background-position: center; border: 0.5em solid #003958; border-radius: 0.75em; }
+.colorFondo { background: rgba(0,0,0,0.3); }
+.citaContacto { font-family: 'Satisfy', cursive; font-size: 3em; }
+.blockquote-footer { font-size: 0.65em !important; }
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    h2 { font-size: 1.75em; }
+    h3 { font-size: 1.5em; }
+    h5 { font-size: 1.25em; }
+    .pb-5 { padding-bottom: 2.5em !important; }
+    .p-4 { padding: 1.25em !important; }
+    main label { font-size: 0.95em; }
+    .form-control { font-size: 0.9em !important; }
+    main .btn { font-size: 1em !important; }
+    .vh-100 { height: 65vh !important; }
+    .citaContacto { font-size: 2.5em !important; }
+    .blockquote-footer { font-size: 0.65em !important; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.25em; }
+    h5 { font-size: 1.25em; }
+    .pb-5 { padding-bottom: 2em !important; }
+    .p-4 { padding: 1.25em !important; }
+    main label { font-size: 0.9em; }
+    .form-control { font-size: 0.85em !important; }
+    main .btn { font-size: 1em !important; }
+    .vh-100 { height: 65vh !important; }
+    .citaContacto { font-size: 2.5em !important; }
+    .blockquote-footer { font-size: 0.65em !important; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.25em; }
+    h5 { font-size: 1.25em; }
+    .pb-5 { padding-bottom: 1.75em !important; }
+    .p-4 { padding: 1em !important; }
+    main label { font-size: 0.85em; }
+    .form-control { font-size: 0.8em !important; }
+    main .btn { font-size: 1em !important; }        
+    .vh-100 { height: 65vh !important; }
+    .citaContacto { font-size: 2.5em !important; }    
+    .blockquote-footer { font-size: 0.65em !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    h2 { font-size: 1.25em; }
+    h3 { font-size: 1em; }
+    h5 { font-size: 1.25em; }
+    .pb-5 { padding-bottom: 1.5em !important; }
+    .p-4 { padding-top: 1em !important; padding-right: 0.75em !important; padding-bottom: 1em !important; padding-left: 0.75em !important; }
+    main label { font-size: 0.8em; }
+    .form-control { font-size: 0.75em !important; }
+    main .btn { font-size: 1em !important; }    
+    .vh-100 { height: 60vh !important; }
+    .citaContacto { font-size: 2.5em !important; }    
+    .blockquote-footer { font-size: 0.65em !important; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    h2 { font-size: 1.25em; }
+    h3 { font-size: 1em; }
+    h5 { font-size: 1em; }
+    .pb-5 { padding-bottom: 1.25em !important; }
+    .p-4 { padding-top: 1em !important; padding-right: 0 !important; padding-bottom: 1em !important; padding-left: 0 !important; }
+    main label { font-size: 0.8em; }
+    .form-control { font-size: 0.7em !important; }
+    main .btn { font-size: 0.95em !important; }    
+    .vh-100 { height: 50vh !important; }    
+    .citaContacto { font-size: 2em !important; }    
+    .blockquote-footer { font-size: 0.65em !important; }
+}
+
+@media screen and (max-width: 575.98px) {
+    
+    h2 { font-size: 1em; }
+    h3 { font-size: 0.85em; }
+    h5 { font-size: 1em; }
+    .pb-5 { padding-bottom: 1em !important; }
+    .p-4 { padding-top: 1em !important; padding-right: 0 !important; padding-bottom: 1em !important; padding-left: 0 !important; }
+    main label { font-size: 0.75em; }
+    .form-control { font-size: 0.65em !important; }
+    main .btn { font-size: 0.85em !important; }    
+    .vh-100 { height: 50vh !important; }
+    .citaContacto { font-size: 2em !important; }    
+    .blockquote-footer { font-size: 0.65em !important; }
+}

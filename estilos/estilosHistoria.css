@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/04/2024, 03:52:56 PM
+    Author     : pcgc7
+*/
+
+
+.imgFondoHistoriaUno { background-image: url('../imagenes/plantadecafe_2.png'); background-repeat: no-repeat; background-position: right top; }
+.imgFondoHistoriaDos { background-image: url('../imagenes/plantadecafe_1.png'); background-repeat: no-repeat; background-position: left center; }
+.colorFondo { background: rgba(255 ,255 ,255 ,0.7); }
+h3 { font-size: 1.75em; }
+p { font-size: 1em; }
+h6 { font-size: 1em; }
+.btn-lg { font-size: 1.25em !important; }
+.my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+    h3 { font-size: 1.75em; }
+    p { font-size: 1em; }
+    h6 { font-size: 1em; }
+    .btn-lg { font-size: 1.25em !important; }   
+    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; } 
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    h3 { font-size: 1.5em; }
+    p { font-size: 1em; }
+    h6 { font-size: 1em; }
+    .btn-lg { font-size: 1em !important; }    
+    .my-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; } 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    h3 { font-size: 1.25em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 1em !important; }    
+    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    h3 { font-size: 1.25em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }   
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }                
+}
+
+@media screen and (max-width: 575.98px) {  
+        
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+}
