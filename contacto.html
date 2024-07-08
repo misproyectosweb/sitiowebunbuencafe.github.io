@@ -33,52 +33,57 @@
     </head>
     <body>
         <header class="imgEncabezado">
-            <div class="container-fluid">
+            <div class="container-fluid colorFondo">
                 <div class="row justify-content-center">
-                    <div class="d-flex justify-content-center align-items-center my-4">
-                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
-                        <h1 class="mb-0 text-white display-4 font-weight-bold">Un buen café para el alma</h1>
-                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-lg navbar-light p-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 px-0">                            
+                            <a class="navbar-brand pt-0" href="#">
+                                <img src="imagenes/logoblanco.png" class="imgLogo img-fluid w-100" alt="Logo de la empresa"/>
+                            </a>
+                        </div>
+                                        
+                        <button id="btnMenu" class="btnMenu navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="btn bi bi-list text-white"></i></span>
+                        </button>
+                
+                        <nav class="menu collapse navbar-collapse px-0" id="navbarNav">
+                            <ul class="nav pt-2">
+                                <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', '#003958');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
+                                    <a class="nav-link text-white" href="index.html"><i class="bi bi-house-door mr-2"></i>Inicio</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', '#003958');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
+                                    <a class="nav-link text-white" href="historia.html"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', '#003958');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
+                                    <a class="nav-link text-white" href="galeria.html"><i class="bi bi-image mr-2"></i>Galería</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', '#003958');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
+                                    <a class="nav-link text-white" href="recetas.html"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', '#003958');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
+                                    <a class="nav-link text-white" href="contacto.html"><i class="bi bi-envelope mr-2"></i>Contáctenos</a>
+                                </li>
+                            </ul>
+                        </nav>                
                     </div>
-                </div>                
-                <ul class="nav nav-justified py-3 border-top border-white menu">
-                    <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'royalblue');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'royalblue');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="historia.html">Historia</a>
-                    </li>                    
-                    <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'royalblue');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'royalblue');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="recetas.html">¿Cómo preparar...?</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'royalblue');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </header>
         
         <main>
             <div class="container-fluid px-0">
-                <div class="row justify-content-center py-5">                    
-                    <div class="text-center">
-                        <h1 class="mb-0 titulo display-4">Contáctenos</h1>
-                    </div>                    
+                
+                <div class="row justify-content-center mx-auto py-5" >
+                    <h1 class="mb-0 display-4 text-center text-uppercase">contáctenos</h1>
                 </div>
-                <div class="row justify-content-center pb-3">                    
-                    <div class="text-center">
-                        <h2 class="mb-0 titulo">¿Te gustó nuestro sitio web?</h2>
-                    </div>                    
-                </div>
+                
                 <div class="row justify-content-center pb-5">                    
                     <div class="text-center">
-                        <h3 class="mb-0 titulo">Envíanos un comentario</h3>
+                        <h1 class="mb-0 display-4 pb-3">¿Te gustó nuestro sitio web?</h1>
+                        <h2 class="mb-0">Envíanos un comentario</h2>
                     </div>                    
                 </div>
-                                                                    
+                                                                                    
                 <!-- Formulario de contacto -->
                 <div class="container-fluid border-top border-dark-50 bg-light">
                     <div class="row justify-content-center align-items-center">
@@ -149,12 +154,12 @@
                         <div class="col-11 col-sm-11 col-md-11 col-lg-10 col-xl-6 p-4">
                             <div class="imgFondoContacto">
                                 <div class="colorFondo">
-                                    <div class="col-7 px-0 mx-auto">
-                                        <div class="row vh-100">
-                                            <blockquote class="mb-0 blockquote text-center text-white citaContacto py-5">
-                                                <p class="mb-0 text-white">" A quien madruga, un buen café le ayuda "</p>
-<!--                                                <footer class="blockquote-footer text-white text-right">Anónimo</footer>-->
-                                            </blockquote>
+                                    <div class="col-8 px-0 mx-auto">
+                                        <div class="row vh-100 align-items-center">                                            
+                                            <blockquote class="blockquote text-center text-white py-5">
+                                                <p class="citaContacto">" A quien madruga, un buen café le ayuda "</p>
+                                                <footer class="blockquote-footer text-white text-right">Anónimo</footer>
+                                            </blockquote>  
                                         </div>
                                     </div>
                                 </div>
@@ -168,44 +173,44 @@
         <footer>                                               
             <div class="container-fluid text-white" id="contacto" style="background-color:#003958;">
                 <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
-                <div class="row justify-content-around my-4">
+                <div class="row justify-content-around mb-4">
                     
                     <!-- Enlaces a las páginas -->
-                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
                         <div class="list-group list-group-flush">
-                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a>
-                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a>
-                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-3"></i>Galería</a>
-                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a>
-                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a>                            
+                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door mr-2"></i>Inicio</a>
+                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
+                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-2"></i>Galería</a>
+                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
+                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope mr-2"></i>Contacto</a>                            
                         </div>
                     </div>
                     
                     <!-- Redes sociales -->
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">                        
                         <div class="list-group list-group-flush">
-                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-3"></i>Un buen café para el alma</a>
-                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a>                            
-                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
-                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-3"></i>Un buen café para el alma</a>
-                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-3"></i>Un buen café para el alma</a>
+                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-2"></i>Un buen café para el alma</a>
+                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-2"></i>Un buen café para el alma</a>                            
+                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-2"></i>Un buen café para el alma</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-2"></i>Un buen café para el alma</a>
+                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-2"></i>Un buen café para el alma</a>
                         </div>
                     </div>
                     
                     <!-- Localización -->
-                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
                         <ul class="list-group list-group-flush">
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</li>                             
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>                            
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-2"></i>(+506) 222-2222</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-2"></i>(+506) 8888-8888</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-2"></i>(+506) 8888-9999</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-2"></i>(+000) 1234-5678</li>                             
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-2"></i>correo@correo.com</li>                            
                         </ul>
                     </div>
                 </div>
                 
-                <div>
-                    <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 border-white border-top text-center py-3 mx-0">        
                         <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
                     </div>   
                 </div>                                                                                

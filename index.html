@@ -35,53 +35,66 @@
     </head>
     <body>
         <header class="imgEncabezado">
-            <div class="container-fluid">
+            <div class="container-fluid colorFondo">
                 <div class="row justify-content-center">
-                    <div class="d-flex justify-content-center align-items-center my-4">
-                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
-                        <h1 class="mb-0 text-white display-4 font-weight-bold">Un buen café para el alma</h1>
-                        <img src="imagenes/dbjBebida_2.png" class="img-fluid w-25" alt="" />
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-lg navbar-light p-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 px-0">                            
+                            <a class="navbar-brand pt-0" href="#">
+                                <img src="imagenes/logoblanco.png" class="imgLogo img-fluid w-100" alt="Logo de la empresa"/>
+                            </a>
+                        </div>
+                                        
+                        <button id="btnMenu" class="btnMenu navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="btn bi bi-list text-white"></i></span>
+                        </button>
+                
+                        <nav class="menu collapse navbar-collapse px-0" id="navbarNav">
+                            <ul class="nav pt-2">
+                                <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', '#003958');" onmouseout="noResaltarOpcion('item_1', 'transparent');">
+                                    <a class="nav-link text-white" href="index.html"><i class="bi bi-house-door mr-2"></i>Inicio</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', '#003958');" onmouseout="noResaltarOpcion('item_2', 'transparent');">
+                                    <a class="nav-link text-white" href="historia.html"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', '#003958');" onmouseout="noResaltarOpcion('item_3', 'transparent');">
+                                    <a class="nav-link text-white" href="galeria.html"><i class="bi bi-image mr-2"></i>Galería</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', '#003958');" onmouseout="noResaltarOpcion('item_4', 'transparent');">
+                                    <a class="nav-link text-white" href="recetas.html"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
+                                </li>
+                                <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', '#003958');" onmouseout="noResaltarOpcion('item_5', 'transparent');">
+                                    <a class="nav-link text-white" href="contacto.html"><i class="bi bi-envelope mr-2"></i>Contáctenos</a>
+                                </li>
+                            </ul>
+                        </nav>                
                     </div>
-                </div>                
-                <ul class="nav nav-justified py-3 border-top border-white menu">
-                    <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'royalblue');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'royalblue');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="historia.html">Historia</a>
-                    </li>                    
-                    <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'royalblue');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'royalblue');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="recetas.html">¿Cómo preparar...?</a>
-                    </li>
-                    <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'royalblue');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
-                        <a class="nav-link text-white font-weight-bold" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </header>
         
         <main>
-            <div class="container-fluid px-0">
-                <div class="row justify-content-center py-5">                    
-                    <div class="text-center titulo">
-                        <h1 class="mb-0 text-center display-4 my-3">Bienvenidos</h1>
-                    </div>                    
+            <div class="container-fluid px-0">               
+
+                <div class="row justify-content-center mx-auto py-5" >
+                    <h1 class="mb-0 display-4 text-center text-uppercase">bienvenidos</h1>
                 </div>
+                                
                 <div class="container">
-                    <div class="row justify-content-center mb-4 px-3">
-                        <p class="textoSeccion mb-4 text-center">El apasionante mundo del café. Es una de las bebidas más populares y consumidas en todo el mundo, omnipresente en nuestro país. Sin el café no se entienden desayunos ni sobremesas. Ese grano de café, que encierra tanta fuerza, que desde hace varios siglos desempeña un papel tan importante en nuestra vida, ya que para muchos de nosotros marca el ritmo del día, tiene un origen y una historia particularmente interesante y llena de curiosidades, en general ignorada por el consumidor apurado que saborea su bebida preferida.</p>
+                    <div class="row justify-content-center px-5">
+                        <p class="textoSeccion text-center">El apasionante mundo del café. Es una de las bebidas más populares y consumidas en todo el mundo, omnipresente en nuestro país. Sin el café no se entienden desayunos ni sobremesas. Ese grano de café, que encierra tanta fuerza, que desde hace varios siglos desempeña un papel tan importante en nuestra vida, ya que para muchos de nosotros marca el ritmo del día, tiene un origen y una historia particularmente interesante y llena de curiosidades, en general ignorada por el consumidor apurado que saborea su bebida preferida.</p>
                     </div>
                 </div>
-
-                <div class="imgFondoInicio vh-100">
-                    <div class="colorFondo vh-100">
-                        <div class="col-7">
-                            <div class="row px-4">
+                
+                <div class="row justify-content-center mx-auto pb-4">
+                    <img src="imagenes/lineadecorativa_2.png" class="img-fluid w-75" alt=""/>
+                </div>
+                                                                
+                <div class="imgFondoInicio">
+                    <div class="colorFondo">
+                        <div class="col-11 col-sm-10 col-md-10 col-lg-8 col-xl-8 mx-auto">
+                            <div class="row vh-100 align-items-center">
                                 <blockquote class="blockquote text-center text-white py-5">
-                                    <p class="citaInicio pl-3">" Es posible que la ciencia nunca presente un mejor sistema de comunicación en la oficina que el descanso para tomar café "</p>
+                                    <p class="citaInicio">" Es posible que la ciencia nunca presente un mejor sistema de comunicación en la oficina que el descanso para tomar café "</p>
                                     <footer class="blockquote-footer text-white text-right">Earl Wilson (columnista)</footer>
                                 </blockquote>
                             </div>
@@ -90,53 +103,53 @@
                 </div>
 
                 <div class="row justify-content-center py-5">                    
-                    <div class="text-center titulo">
-                        <h1 class="mb-0 text-center display-4 py-4">¿Cómo disfrutar tu café?</h1>
-                        <h2 class="mb-0 text-center">Creando un momento especial</h2>
+                    <div class="text-center">
+                        <h1 class="mb-0 display-4 pb-3">¿Cómo disfrutar tu café?</h1>
+                        <h2 class="mb-0">Creando un momento especial</h2>
                     </div>                    
                 </div>
                 <div class="container border-bottom border-dark-50">
-                    <div class="row justify-content-center mb-4 px-3">
+                    <div class="row justify-content-center mb-5 px-3">
                         <p class="textoSeccion text-center mb-0">Ya sea que estés disfrutando de un café solo o con amigos, familiares o colegas, siempre puedes convertirlo en un momento especial. Descubre el placer de disfrutar beber una bebida en tu tiempo. Cuando te acercas a preparar, servir y tomar un sorbo de café con intención e inspiración, se convierte en tu ceremonia diaria. Entonces, ¿qué necesitas para crear tu propia rutina de café matutino en casa? Tu café favorito. ¿Otro ingrediente necesario? Tiempo. Vale la pena tomarse diez minutos más para reducir la velocidad y saborear el momento. Combínalo con una mentalidad abierta y relajada y estarás ganando un gran momento.</p>
                     </div>
                 </div>
 
                 <div class="container-fluid pt-5">
                     <div class="row align-items-center mb-5">
-                        <div class="px-5 col-6">
+                        <div class="px-5 col-6 col-sm-7 col-md-7 col-lg-7 col-xl-7">
                             <h5 class="my-3"><strong>1. Identifica el aroma</strong></h5>
                             <p>Antes de dar el primer trago, tómate el tiempo para percibir todos los olores que contiene una taza de café. Con una cuchara agita ligeramente tu bebida para liberar todos sus aromas. Inhala el cálido vapor de tu taza y date cuenta de la variedad de aromas que hay en el café: nueces, chocolate, caramelo…</p>
                         </div>
-                        <div class="px-5 col-6">
+                        <div class="px-5 col-6 col-sm-5 col-md-5 col-md-5 col-xl-5">
                             <img src="imagenes/imgCafe_4.png" class="img-fluid"/>
                         </div>
                     </div>
 
                     <div class="row mr-5 mb-5 justify-content-end align-items-center">
-                        <div class="px-5 col-6 text-right">
+                        <div class="px-5 col-6 col-sm-5 col-md-5 col-lg-5 col-xl-5 text-right">
                             <img src="imagenes/imgCafe_5.png" class="img-fluid"/>
                         </div>
-                        <div class="px-5 col-6">
+                        <div class="px-5 col-6 col-sm-7 col-md-7 col-lg-7 col-xl-7">
                             <h5 class="my-3"><strong>2. Saborea cada sorbo</strong></h5>
                             <p>En lugar de beberlo con prisa, tómate el tiempo para saborear cada trago.  Poco a poco, ve descubriendo las notas y los matices del café. Cada sorbo debe revelar nuevas características de tu taza de café, como su nivel de acidez o tostado. No te esperes a que tu bebida esté tibia, un buen café se debe tomar caliente.</p>
                         </div>
                     </div>
 
                     <div class="row align-items-center mb-5">
-                        <div class="px-5 col-6">
+                        <div class="px-5 col-6 col-sm-7 col-md-7 col-lg-7 col-xl-7">
                             <h5 class="my-3"><strong>3. Paladea la textura</strong></h5>
                             <p>El cuerpo de un café puede ser espeso, similar a la consistencia de una crema, o ligero y muy suave. Dependiendo de la variedad será la textura del café. Piensa en cómo se siente el café en la boca. ¿Cuál es su peso o grosor? ¿En qué parte de la lengua experimentas los sabores?</p>
                         </div>
-                        <div class="px-5 col-6">
+                        <div class="px-5 col-6 col-sm-5 col-md-5 col-lg-5 col-xl-5">
                             <img src="imagenes/imgCafe_6.png" class="img-fluid"/>
                         </div>
                     </div>
 
                     <div class="row mr-5 mb-5 justify-content-end align-items-center">
-                        <div class="px-5 col-6 text-right">
+                        <div class="px-5 col-6 col-sm-5 col-md-5 col-lg-5 col-xl-5 text-right">
                             <img src="imagenes/imgCafe_7.png" class="img-fluid"/>
                         </div>
-                        <div class="px-5 col-6">
+                        <div class="px-5 col-6 col-sm-7 col-md-7 col-lg-7 col-xl-7">
                             <h5 class="my-3"><strong>4. Disfruta hasta el final</strong></h5>
                             <p>Después de cada trago, fíjate cómo evoluciona el sabor del café en tu paladar.  El gusto que se queda en tu boca te muestra los matices que no se pueden identificar solo con el aroma. No sólo tomes café, disfruta de una experiencia placentera para todos los sentidos con Jacobs. Su aroma mágico y su sabor inigualable son los elementos esenciales para convertir todos lo días en una oportunidad para hacer realidad tus sueños.</p>
                         </div>
@@ -148,44 +161,44 @@
         <footer>                                               
             <div class="container-fluid text-white" id="contacto" style="background-color:#003958;">
                 <h3 class="mb-0 py-4 text-white text-center">Manténgase en contacto con nosotros</h3>
-                <div class="row justify-content-around my-4">
+                <div class="row justify-content-around mb-4">
                     
                     <!-- Enlaces a las páginas -->
-                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
                         <div class="list-group list-group-flush">
-                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door-fill mr-3"></i>Inicio</a>
-                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-calendar-date-fill mr-3"></i>Historia</a>
-                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-3"></i>Galería</a>
-                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-3"></i>¿Cómo preparar...?</a>
-                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope-fill mr-3"></i>Contacto</a>                            
+                            <a href="index.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-house-door mr-2"></i>Inicio</a>
+                            <a href="historia.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-vector-pen mr-2"></i>Historia</a>
+                            <a href="galeria.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-image mr-2"></i>Galería</a>
+                            <a href="recetas.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-receipt mr-2"></i>¿Cómo preparar...?</a>
+                            <a href="contacto.html" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-envelope mr-2"></i>Contacto</a>                            
                         </div>
                     </div>
                     
                     <!-- Redes sociales -->
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">                        
                         <div class="list-group list-group-flush">
-                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-3"></i>Un buen café para el alma</a>
-                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-3"></i>Un buen café para el alma</a>                            
-                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-3"></i>Un buen café para el alma</a>
-                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-3"></i>Un buen café para el alma</a>
-                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-3"></i>Un buen café para el alma</a>
+                            <a href="https://www.facebook.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-facebook text-white mr-2"></i>Un buen café para el alma</a>
+                            <a href="http://instagram.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-instagram mr-2"></i>Un buen café para el alma</a>                            
+                            <a href="https://www.pinterest.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-pinterest mr-2"></i>Un buen café para el alma</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="bi bi-youtube text-white mr-2"></i>Un buen café para el alma</a>
+                            <a href="https://twitter.com/" target="_blank" class="p-1 list-group-item text-white text-decoration-none colorFooter border-0"><i class="fa-brands fa-x-twitter mr-2"></i>Un buen café para el alma</a>
                         </div>
                     </div>
                     
                     <!-- Localización -->
-                    <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">                        
                         <ul class="list-group list-group-flush">
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-3"></i>(+506) 222-2222</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-3"></i>(+506) 8888-8888</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-3"></i>(+506) 8888-9999</li>
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</li>                             
-                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-3"></i>correo@correo.com</li>                            
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telephone-fill mr-2"></i>(+506) 222-2222</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-phone-fill mr-2"></i>(+506) 8888-8888</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-whatsapp mr-2"></i>(+506) 8888-9999</li>
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-telegram mr-2"></i>(+000) 1234-5678</li>                             
+                            <li class="p-1 list-group-item border border-0 colorFooter"><i class="bi bi-envelope-fill mr-2"></i>correo@correo.com</li>                            
                         </ul>
                     </div>
                 </div>
                 
-                <div>
-                    <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 border-white border-top text-center py-3 mx-0">        
                         <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
                     </div>   
                 </div>                                                                                

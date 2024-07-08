@@ -8,7 +8,10 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
+/* Títulos */
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
 
+/* Imágenes */
 .datosFotos { font-size: 1em; }
 .p-4 { padding-top: 1.25em !important; padding-right: 1.25em !important; padding-bottom: 1.25em !important; padding-left: 1.25em !important; }
 .mb-3 { margin-bottom: 1em !important; }
@@ -16,6 +19,10 @@ and open the template in the editor.
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
+    /* Títulos */
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
+    
+    /* Imágenes */
     .datosFotos { font-size: 0.85em; }
     .p-4 { padding-top: 1em !important; padding-right: 1em !important; padding-bottom: 1em !important; padding-left: 1em !important; }
     .mb-3 { margin-bottom: 1em !important; }
@@ -24,7 +31,11 @@ and open the template in the editor.
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
     
-    .datosFotos { font-size: 0.8em; }
+    /* Títulos */
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
+    
+    /* Imágenes */
+    .datosFotos { font-size: 0.75em; }
     .p-4 { padding-top: 0.5em !important; padding-right: 1em !important; padding-bottom: 0.5em !important; padding-left: 1em !important; }
     .mb-3 { margin-bottom: 1em !important; }
     .mb-5 { margin-bottom: 1.75em !important; }
@@ -32,7 +43,11 @@ and open the template in the editor.
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    .datosFotos { font-size: 0.8em; }
+    /* Títulos */
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    
+    /* Imágenes */
+    .datosFotos { font-size: 0.75em; }
     .p-4 { padding-top: 0.25em !important; padding-right: 1em !important; padding-bottom: 0.25em !important; padding-left: 1em !important; }
     .mb-3 { margin-bottom: 0.75em !important; }
     .mb-5 { margin-bottom: 1.5em !important; }
@@ -40,7 +55,11 @@ and open the template in the editor.
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
-    .datosFotos { font-size: 0.8em; }
+    /* Títulos */
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    
+    /* Imágenes */
+    .datosFotos { font-size: 0.7em; }
     .p-4 { padding-top: 0 !important; padding-right: 1em !important; padding-bottom: 0 !important; padding-left: 1em !important; }
     .mb-3 { margin-bottom: 0.75em !important; }
     .mb-5 { margin-bottom: 1.25em !important; }
@@ -48,16 +67,36 @@ and open the template in the editor.
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
-    .datosFotos { font-size: 0.75em; }
+    /* Títulos */
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    
+    /* Imágenes */
+    .datosFotos { font-size: 0.7em; }
     .p-4 { padding-top: 0 !important; padding-right: 1em !important; padding-bottom: 0 !important; padding-left: 1em !important; }
     .mb-3 { margin-bottom: 0.75em !important; }
     .mb-5 { margin-bottom: 1em !important; }
 }
 
-@media screen and (max-width: 575.98px) {    
+@media screen and (min-width: 481px) and (max-width: 575.98px) {    
     
-    .datosFotos { font-size: 0.75em; }
+    /* Títulos */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    
+    /* Imágenes */
+    .datosFotos { font-size: 0.7em; }
     .p-4 { padding-top: 0 !important; padding-right: 1em !important; padding-bottom: 0 !important; padding-left: 1em !important; }
     .mb-3 { margin-bottom: 0.75em !important; }
-    .mb-5 { margin-bottom: 0.75em !important; }
+    .mb-5 { margin-bottom: 0.75em !important; }    
+}
+
+@media screen and (max-width: 480.98px) {
+    
+    /* Títulos */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    
+    /* Imágenes */
+    .datosFotos { font-size: 0.7em; }
+    .p-4 { padding-top: 0 !important; padding-right: 1em !important; padding-bottom: 0 !important; padding-left: 1em !important; }
+    .mb-3 { margin-bottom: 0.75em !important; }
+    .mb-5 { margin-bottom: 0.75em !important; }   
 }

@@ -8,66 +8,114 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
+/* Títulos */
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
 
+/* Textos */
 .imgFondoHistoriaUno { background-image: url('../imagenes/plantadecafe_2.png'); background-repeat: no-repeat; background-position: right top; }
 .imgFondoHistoriaDos { background-image: url('../imagenes/plantadecafe_1.png'); background-repeat: no-repeat; background-position: left center; }
-.colorFondo { background: rgba(255 ,255 ,255 ,0.7); }
+.colorFondoTextos { background: rgba(255 ,255 ,255 ,0.7); }
 h3 { font-size: 1.75em; }
 p { font-size: 1em; }
 h6 { font-size: 1em; }
 .btn-lg { font-size: 1.25em !important; }
 .my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+.w-50 { width: 25% !important; }
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
+    /* Títulos */
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
+    
+    /* Textos */
     h3 { font-size: 1.75em; }
     p { font-size: 1em; }
     h6 { font-size: 1em; }
     .btn-lg { font-size: 1.25em !important; }   
-    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; } 
+    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    .w-50 { width: 30% !important; }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
     
+    /* Títulos */
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
+    
+    /* Textos */
     h3 { font-size: 1.5em; }
     p { font-size: 1em; }
     h6 { font-size: 1em; }
     .btn-lg { font-size: 1em !important; }    
     .my-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; } 
+    .w-50 { width: 30% !important; }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-
+    
+    /* Títulos */
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    
+    /* Textos */
     h3 { font-size: 1.25em; }
-    p { font-size: 0.75em; }
+    p { font-size: 1em; }
     h6 { font-size: 0.75em; }
     .btn-lg { font-size: 1em !important; }    
-    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; } 
+    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    .w-50 { width: 30% !important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
+    /* Títulos */
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    
+    /* Textos */
     h3 { font-size: 1.25em; }
     p { font-size: 0.75em; }
     h6 { font-size: 0.75em; }
     .btn-lg { font-size: 0.75em !important; }    
-    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }   
+    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    .w-50 { width: 40% !important; }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
+    /* Títulos */
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    
+    /* Textos */
     h3 { font-size: 1em; }
     p { font-size: 0.75em; }
     h6 { font-size: 0.75em; }
     .btn-lg { font-size: 0.75em !important; }    
-    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }                
+    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .w-50 { width: 40% !important; }
 }
 
-@media screen and (max-width: 575.98px) {  
-        
+@media screen and (min-width: 481px) and (max-width: 575.98px) {  
+    
+    /* Títulos */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    
+    /* Textos */
     h3 { font-size: 1em; }
     p { font-size: 0.75em; }
     h6 { font-size: 0.75em; }
     .btn-lg { font-size: 0.75em !important; }    
     .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    .w-50 { width: 50% !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+    
+    /* Títulos */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    
+    /* Textos */
+    h3 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    h6 { font-size: 0.75em; }
+    .btn-lg { font-size: 0.75em !important; }    
+    .my-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    .w-50 { width: 50% !important; }
 }

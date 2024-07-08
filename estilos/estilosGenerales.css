@@ -11,135 +11,195 @@ and open the template in the editor.
 
 /* ********** Estilos que aplican para todas las páginas ********** */
 
-/* ********** Encabezado ********** */
-.imgEncabezado { font-family: 'Mooli', sans-serif; background-image: url('../imagenes/imgCafe_2.jpg'); background-size: cover; background-position: center; }
-.display-4 { font-size: 3.5em !important; }
-.w-25 { width: 15% !important; }
+/* Encabezado */
+.imgEncabezado { background-image: url('../imagenes/imgCafe_2.jpg'); background-size: cover; background-position: center; }
+.colorFondo { background-color: rgba(0, 0, 0, 0.4); }
+.w-100 { width: 90% !important; }        
+.p-4 { padding: 1.25em !important; }
 
-/* ********** Menú principal ********** */
-.menu { font-size: 1.5em; }
+/* Menú principal */
+.menu { display: flex; justify-content: center; }
+.menu ul { display: flex; flex-direction: row; }
+.menu ul li { font-size: 1.25em !important; margin: 0 1em; }
+.nav-link { padding: 0.5em 2em !important; }
 
-/* ********** Título y texto de sección ********** */
-.titulo { font-family: 'Mooli', sans-serif; }
-.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
+/* Título y texto de sección */
+.display-4 { font-family: 'Bree Serif', sans-serif; font-size: 3.5em; }
+.w-75 { width: 50% !important; }
 .textoSeccion { font-size: 1.25em; }
 
-/* ********** Pie de página ********** */
+/* Pie de página */
 .colorFooter { background-color: #003958; }
-footer a, footer ul li, .copyright { font-size: 0.85em !important; }
+footer a, footer ul li, .copyright { font-size: 1em !important; }
 footer h3 { font-size: 1.75em; }
 
 /* ******************** Media queries ******************** */
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
 
-    /* ********** Encabezado ********** */
-    .display-4 { font-size: 3.25em !important; }
-    .w-25 { width: 10% !important; }
+    /* Encabezado */
+    .w-100 { width: 80% !important; }        
+    .p-4 { padding: 1.25em !important; }
     
-    /* ********** Menú principal ********** */
-    .menu { font-size: 1.25em; }
+    /* Menú principal */
+    .menu { display: flex; justify-content: center; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1.25em !important; margin: 0 0.85em; }
+    .nav-link { padding: 0.5em 1.5em !important; }  
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
-    .textoSeccion { font-size: 1.15em; }
+    /* Título y texto de sección */
+    .display-4 { font-size: 3.5em !important; }
+    .w-75 { width: 50% !important; }
+    .textoSeccion { font-size: 1.25em; }
     
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.85em !important; }
-    footer h3 { font-size: 1.5em; }                
+    /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.8em !important; }
+    footer h3 { font-size: 1.75em; }                
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
     
-    /* ********** Encabezado ********** */
+    /* Encabezado */
+    .w-100 { width: 70% !important; }        
+    .p-4 { padding: 1em !important; }
+    
+    /* Menú principal */
+    .menu { display: flex; justify-content: center; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1em !important; margin: 0 0.85em; }
+    .nav-link { padding: 1em !important; } 
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+                
+    /* Título y texto de sección */
     .display-4 { font-size: 3em !important; }
-    .w-25 { width: 10% !important; }
+    .w-75 { width: 60% !important; }
+    .textoSeccion { font-size: 1em; }
     
-    /* ********** Menú principal ********** */
-    .menu { font-size: 1.25em; }
-    
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
-    .textoSeccion { font-size: 1.15em; }
-    
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.85em !important; }
+    /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.8em !important; }
     footer h3 { font-size: 1.5em; }       
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
         
-    /* ********** Encabezado ********** */
-    .display-4 { font-size: 2.75em !important; }
-    .w-25 { width: 10% !important; }
+    /* Encabezado */
+    .w-100 { width: 60% !important; }        
+    .p-4 { padding: 1em !important; }
     
-    /* ********** Menú principal ********** */
-    .menu { font-size: 1em; }
-    
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    /* Menú principal */
+    .menu { display: flex; justify-content: center; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1em !important; margin: 0 0.45em; }
+    .nav-link { padding: 1em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+                
+    /* Título y texto de sección */
+    .display-4 { font-size: 3em !important; }
+    .w-75 { width: 60% !important; }
     .textoSeccion { font-size: 1em; }
     
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.75em !important; }
-    footer h3 { font-size: 1.25em; }       
+    /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }
+    footer h3 { font-size: 1.5em; }       
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
-    /* ********** Encabezado ********** */
-    .display-4 { font-size: 2.25em !important; }
-    .w-25 { width: 10% !important; }
+    /* Encabezado */
+    .w-100 { width: 60% !important; }        
+    .btnMenu i { font-size: 1.75em; }
+    .p-4 { padding: 0.75em !important; }
     
-    /* ********** Menú principal ********** */
-    .menu { font-size: 1em; }
-    .nav-link { padding: 0 !important; }
-    
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    /* Menú principal */
+    .menu { display: flex; justify-content: center; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: row; }
+    .menu ul li { font-size: 1em !important; }
+    .nav-link { padding: 1em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+                
+    /* Título y texto de sección */
+    .display-4 { font-size: 2.5em !important; }
+    .w-75 { width: 60% !important; }
     .textoSeccion { font-size: 0.85em; }
     
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.65em !important; }
-    footer h3 { font-size: 1.25em; }    
+    /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }
+    footer h3 { font-size: 1.5em; }
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
-    /* ********** Encabezado ********** */
-    .display-4 { font-size: 2em !important; }
-    .w-25 { width: 10% !important; }
+    /* Encabezado */
+    .w-100 { width: 50% !important; }        
+    .btnMenu i { font-size: 1.75em; }
+    .p-4 { padding: 0.75em !important; }
     
-    /* ********** Menú principal ********** */
-    .menu { font-size: 0.75em; }
-    .nav-link { padding: 0 !important; }
-    
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    /* Menú principal */
+    .menu { display: flex; justify-content: flex-start; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: column; }
+    .menu ul li { font-size: 0.75em !important; }
+    .nav-link { padding: 0.75em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+            
+    /* Título y texto de sección */
+    .display-4 { font-size: 2.5em !important; }
+    .w-75 { width: 70% !important; }
     .textoSeccion { font-size: 0.85em; }
     
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.55em !important; }
-    footer h3 { font-size: 1.25em; }     
+    /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }
+    footer h3 { font-size: 1.25em; }
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
-    /* ********** Encabezado ********** */
-    .display-4 { font-size: 1.75em !important; }
-    .w-25 { width: 10% !important; }
+    /* Encabezado */    
+    .w-100 { width: 40% !important; }        
+    .btnMenu i { font-size: 1.5em; }
+    .p-4 { padding: 0.5em !important; }
     
-    /* ********** Menú principal ********** */
-    .menu { font-size: 0.65em; }
-    .nav-link { padding: 0 !important; }
+    /* Menú principal */
+    .menu { display: flex; justify-content: flex-start; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: column; }
+    .menu ul li { font-size: 0.75em !important; }
+    .nav-link { padding: 0.75em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
     
-    /* ********** Título y texto de sección ********** */
-    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    /* Título y texto de sección */
+    .display-4 { font-size: 2em !important; }
+    .w-75 { width: 70% !important; }
     .textoSeccion { font-size: 0.75em; }
-    
-    /* ********** Pie de página ********** */
-    footer a, footer ul li, .copyright { font-size: 0.55em !important; }
-    footer h3 { font-size: 1.25em; }       
+       
+    /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }
+    footer h3 { font-size: 1.25em; } 
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
 }
 
-/* ********************************************************************************************* */
+@media screen and (max-width: 480.98px) {
+    
+    /* Encabezado */    
+    .w-100 { width: 30% !important; }        
+    .btnMenu i { font-size: 1.5em; }
+    .p-4 { padding: 0.5em !important; }
+    
+    /* Menú principal */
+    .menu { display: flex; justify-content: flex-start; border-top: 1px solid #fff; }
+    .menu ul { display: flex; flex-direction: column; }
+    .menu ul li { font-size: 0.75em !important; }
+    .nav-link { padding: 0.75em !important; }
+    .menu .nav .nav-item .nav-link:hover { color: #fff !important; }
+    
+    /* Título y texto de sección */
+   .display-4 { font-size: 2em !important; }
+   .w-75 { width: 70% !important; }
+   .textoSeccion { font-size: 0.75em; }
+   
+   /* Pie de página */
+    footer a, footer ul li, .copyright { font-size: 0.5em !important; }
+    footer h3 { font-size: 1.25em; }
+    .col-3, .col-4 { padding-left: 5px; padding-right: 5px; }
+}

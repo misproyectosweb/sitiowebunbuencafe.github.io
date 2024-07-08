@@ -10,13 +10,20 @@ and open the template in the editor.
 
 
 /* ********** Estilos página de inicio ********** */
-.imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; min-height: 100vh; }
-.colorFondo { background: rgba(0,0,0,0.3); }
+
+/* Títulos */
 h2 { font-size: 2em; }
-.citaInicio { font-family: 'Satisfy', cursive; font-size: 3em; }
-.blockquote-footer { font-family: 'Satisfy', cursive; font-size: 2em; }
+
+/* Texto de cita */
+.imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; min-height: 100vh; }
+.colorFondo { background: rgba(0,0,0,0.4); }
+.citaInicio { font-family: 'Satisfy', cursive; font-size: 2.5em; }
+.blockquote-footer { font-family: 'Satisfy', cursive; font-size: 1.75em; }
+
+/*  */
 h5 { font-size: 1.25em; }
 p { font-size: 1em; }
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }
 .pt-5 { padding-top: 2.5em !important; }
 .mr-5 { margin-right: 2.5em !important; }
 .mb-5 { margin-bottom: 2.5em !important; }
@@ -26,11 +33,17 @@ p { font-size: 1em; }
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
+    /* Títulos */
     h2 { font-size: 1.75em; }
-    .citaInicio { font-size: 2.75em; }
-    .blockquote-footer { font-size: 1.75em; }
+    
+    /* Texto de cita */
+    .citaInicio { font-size: 2.25em; }
+    .blockquote-footer { font-size: 1.5em; }
+    
+    /*  */
     h5 { font-size: 1.25em; }
     p { font-size: 1em; }
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
     .pt-5 { padding-top: 2.25em !important; }
     .mr-5 { margin-right: 2.25em !important; }
     .mb-5 { margin-bottom: 2.25em !important; }
@@ -39,11 +52,17 @@ p { font-size: 1em; }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
     
+    /* Títulos */
     h2 { font-size: 1.5em; }
-    .citaInicio { font-size: 2.5em; }
-    .blockquote-footer { font-size: 1.5em; }
+    
+    /* Texto de cita */
+    .citaInicio { font-size: 2em; }
+    .blockquote-footer { font-size: 1.25em; }
+    
+    /*  */
     h5 { font-size: 1.25em; }
     p { font-size: 1em; }
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }
     .pt-5 { padding-top: 2em !important; }
     .mr-5 { margin-right: 2em !important; }
     .mb-5 { margin-bottom: 2em !important; }
@@ -52,11 +71,17 @@ p { font-size: 1em; }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
+    /* Títulos */
     h2 { font-size: 1.5em; }
-    .citaInicio { font-size: 2.25em; }
-    .blockquote-footer { font-size: 1.5em; }
+    
+    /* Texto de cita */
+    .citaInicio { font-size: 2em; }
+    .blockquote-footer { font-size: 1.25em; }
+    
+    /*  */
     h5 { font-size: 1.25em; }
     p { font-size: 1em; }
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
     .pt-5 { padding-top: 1.75em !important; }
     .mr-5 { margin-right: 1.75em !important; }
     .mb-5 { margin-bottom: 1.75em !important; }
@@ -65,11 +90,17 @@ p { font-size: 1em; }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
+    /* Títulos */
     h2 { font-size: 1.25em; }
+    
+    /* Texto de cita */
     .citaInicio { font-size: 2em; }
     .blockquote-footer { font-size: 1.25em; }
+    
+    /*  */
     h5 { font-size: 1em; }
-    p { font-size: 0.85em; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
     .pt-5 { padding-top: 1.5em !important; }
     .mr-5 { margin-right: 1.5em !important; }
     .mb-5 { margin-bottom: 1.5em !important; }
@@ -78,24 +109,55 @@ p { font-size: 1em; }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
+    /* Títulos */
     h2 { font-size: 1.25em; }
+    
+    /* Texto de cita */
     .citaInicio { font-size: 1.75em; }
     .blockquote-footer { font-size: 1em; }
+    
+    /*  */
     h5 { font-size: 1em; }
-    p { font-size: 0.85em; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
     .pt-5 { padding-top: 1.25em !important; }
     .mr-5 { margin-right: 1.25em !important; }
     .mb-5 { margin-bottom: 1.25em !important; }
     .px-5 { padding-left: 1.25em !important; padding-right: 1.25em !important; }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
-    h2 { font-size: 1em; }
+    /* Títulos */
+    h2 { font-size: 1em; }  
+    
+    /* Texto de cita */
     .citaInicio { font-size: 1.75em; }
     .blockquote-footer { font-size: 1em; }
+    
+    /*  */
     h5 { font-size: 1em; }
     p { font-size: 0.75em; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
+    .pt-5 { padding-top: 1em !important; }
+    .mr-5 { margin-right: 1em !important; }
+    .mb-5 { margin-bottom: 1em !important; }
+    .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+    
+    /* Títulos */
+    h2 { font-size: 1em; }
+    
+    /* Texto de cita */
+    .citaInicio { font-size: 1.75em; }
+    .blockquote-footer { font-size: 1em; }
+    
+    /*  */
+    h5 { font-size: 1em; }
+    p { font-size: 0.75em; }
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }
     .pt-5 { padding-top: 1em !important; }
     .mr-5 { margin-right: 1em !important; }
     .mb-5 { margin-bottom: 1em !important; }
