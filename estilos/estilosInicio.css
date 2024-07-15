@@ -15,7 +15,7 @@ and open the template in the editor.
 h2 { font-size: 2em; }
 
 /* Texto de cita */
-.imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; min-height: 100vh; }
+.imgFondoInicio { background-image: url('../imagenes/imgCafe_1.jpg'); background-size: cover; background-position: center; }
 .colorFondo { background: rgba(0,0,0,0.4); }
 .vh-100 { height: 100vh !important; }
 .citaInicio { font-family: 'Satisfy', cursive; font-size: 2.5em; }
